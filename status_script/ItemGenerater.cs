@@ -92,23 +92,28 @@ public class ItemGenerater : MonoBehaviour {
 				break;
 			
 			case "Cherry":
-				return;
+				Instance = Instantiate(Prefab2);
+				break;
+				
+			case "Kiwi":
+				Instance = Instantiate(Prefab3);
+				break;
+				
+			case "Lemon":
+				Instance = Instantiate(Prefab4);
+				break;
 				
 			case "Coconut":
 				Instance = Instantiate(Prefab5);
 				break;
 				
-			case "Kiwi":
-				return;
-				
-			case "Lemon":
-				return;
-				
 			case "Pear":
-				return;
+				Instance = Instantiate(Prefab6);
+				break;
 				
 			case "Strawberry":
-				return;
+				Instance = Instantiate(Prefab7);
+				break;
 			
 			default:
 				return;
