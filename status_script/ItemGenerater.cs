@@ -42,7 +42,7 @@ public class ItemGenerater : MonoBehaviour {
 
     void Start()
     {
-        interval = 5f;
+        interval = 0f;
 		posLists = GenerateDataBase.GetPosLists();
 		l_size   = posLists.Count;
 		Debug.Log(posLists[0].GetItemName());
@@ -64,7 +64,8 @@ public class ItemGenerater : MonoBehaviour {
 			}
 			
 //			経過時間を初期化
-            time = 0f;
+            time     = 0f;
+			interval = 3600f;
         }
     }
 	
