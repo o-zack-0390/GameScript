@@ -6,68 +6,68 @@ using System;
 /* フィールドにアイテムを生成するクラス */
 public class ItemGenerater : MonoBehaviour {
 	
-//		生成座標
-		public GenerateDataBase GenerateDataBase;
+//	生成座標
+	public GenerateDataBase GenerateDataBase;
 	
-//		インスタンス化
-		private GameObject Instance;
+//	インスタンス化
+	private GameObject Instance;
 	
-//		アイテム名
-		private string item_name;
+//	アイテム名
+	private string item_name;
 	
-//		生成間隔
-		private float interval;
+//	生成間隔
+	private float interval;
 	
-//		経過時間
-		private float time = 0f;
+//	経過時間
+	private float time = 0f;
 	
-//		生成リスト
-		private List<GeneratePosition> posLists = new List<GeneratePosition>();
-		private int l_size;
+//	生成リスト
+	private List<GeneratePosition> posLists = new List<GeneratePosition>();
+	private int l_size;
 	
-//		生成座標
-		private int x;
-		private int y;
-		private int z;
+//	生成座標
+	private int x;
+	private int y;
+	private int z;
 
-//		アイテムプレハブ
-		public GameObject Prefab1;
-		public GameObject Prefab2;
-		public GameObject Prefab3;
-		public GameObject Prefab4;
-		public GameObject Prefab5;
-		public GameObject Prefab6;
-		public GameObject Prefab7;
+//	アイテムプレハブ
+	public GameObject Prefab1;
+	public GameObject Prefab2;
+	public GameObject Prefab3;
+	public GameObject Prefab4;
+	public GameObject Prefab5;
+	public GameObject Prefab6;
+	public GameObject Prefab7;
 
 
-		void Start()
-		{
-			interval = 0f;
-			posLists = GenerateDataBase.GetPosLists();
-			l_size   = posLists.Count;
-			Debug.Log(posLists[0].GetItemName());
-		}
+	void Start()
+	{
+		interval = 0f;
+		posLists = GenerateDataBase.GetPosLists();
+		l_size   = posLists.Count;
+		Debug.Log(posLists[0].GetItemName());
+	}
  
 
-		void Update()
-		{
-//			時間計測
-			time += Time.deltaTime;
+	void Update()
+	{
+//		時間計測
+		time += Time.deltaTime;
  
-//			経過時間が生成時間になったとき(生成時間より大きくなったとき)
-			if(time > interval)
+//		経過時間が生成時間になったとき(生成時間より大きくなったとき)
+		if(time > interval)
+		{
+			for(int i=0; i<l_size; i++)
 			{
-				for(int i=0; i<l_size; i++)
-				{
-//						アイテム生成
-						GenerateItem(posLists[i], posLists[i].GetFlag(), i);
-				}
-			
-//				経過時間を初期化
-				time     = 0f;
-				interval = 3600f;
+//				アイテム生成
+				GenerateItem(posLists[i], posLists[i].GetFlag(), i);
 			}
+			
+//			経過時間を初期化
+			time     = 0f;
+			interval = 3600f;
 		}
+	}
 	
 	
 	public void GenerateItem(GeneratePosition posData, int flag, int index)

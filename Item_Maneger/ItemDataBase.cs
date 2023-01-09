@@ -10,7 +10,7 @@ public class ItemDataBase : ScriptableObject {
 	[SerializeField]
 	private List<Item> itemLists = new List<Item>();
  
-// 　アイテムリストを返す
+//	アイテムリストを返す
 	public List<Item> GetItemLists() {
 		return itemLists;
 	}
