@@ -67,7 +67,7 @@ public class SlotProcess : MonoBehaviour {
 			/*ここに使用したときの処理を記述*/
 			GetItem(item_name).SetItemNum(--item_num);
 	
-//		アイテムが無くなったらスロットを空にする
+//			アイテムが無くなったらスロットを空にする
 			if(item_num < 1)
 				RemoveSlot();
 		}
