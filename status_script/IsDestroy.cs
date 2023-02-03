@@ -43,10 +43,10 @@ public class IsDestroy : MonoBehaviour {
 	
 	
 //	破壊対象のアイテムを設定
-	public void SetItem(Collider col)
+	public void SetItem(GameObject obj)
 	{
-		Prefab = col;
-		i_name = col.name;
+		Prefab = obj;
+		i_name = obj.name;
 		i_name = i_name.Substring(0, i_name.IndexOf('('));
 	}
 	
