@@ -6,10 +6,10 @@ using UnityEngine.UI;
 /* アイテムを破壊するクラス */
 public class IsDestroy : MonoBehaviour {
 	
-//　 メインカメラのスクリプト「ItemManager.cs」を参照
+//	メインカメラのスクリプト「ItemManager.cs」を参照
 	public GameObject MainCamera;
 	
-//　 アイテムプレハブ
+//	アイテムプレハブ
 	public GameObject Prefab;
 
 //	アイテムを拾う判定
