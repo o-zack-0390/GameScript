@@ -11,12 +11,17 @@ public class ItemDataBase : ScriptableObject {
 	private List<Item> itemLists = new List<Item>();
  
 //	アイテムリストを返す
-	public List<Item> GetItemLists() {
+	public List<Item> GetItemLists() 
+	{
 		return itemLists;
 	}
 }
 
 /*
-このプログラムは以下の記事のプログラムをそのまま流用しています
+不都合な件があったため以下を変更
+変更前:以下のサイトを流用
+変更後:関数の型を調整
+
+参考サイト
 https://gametukurikata.com/program/scriptableobjectitemdatabase
 */
