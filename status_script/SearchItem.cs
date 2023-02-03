@@ -26,8 +26,8 @@ public class SearchItem : MonoBehaviour {
 	void OnTriggerExit(Collider col)
 	{
 //		離れたオブジェクトのタグが"Item"のとき
-        if(col.tag == "Item")
-            MainCamera.GetComponent<IsDestroy>().ChangeFlag(0);
+		if(col.tag == "Item")
+			MainCamera.GetComponent<IsDestroy>().ChangeFlag(0);
 	}
  
 }
