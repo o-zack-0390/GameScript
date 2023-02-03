@@ -36,7 +36,7 @@ public class IsDestroy : MonoBehaviour {
 			{
 				MainCamera.GetComponent<ItemManager>().ItemPick(i_name);
 				Destroy(Prefab);
-				flag = 0;
+				ChangeFlag(0);
 			}
 		}
 	}
