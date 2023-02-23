@@ -62,5 +62,11 @@ Unity<br><br>
 <br>
 
 <h3>使用アセット</h3>
-・<a href="https://assetstore.unity.com/packages/3d/props/food/low-poly-fruit-pickups-98135#content">Low Poly Fruit Pickups</a><br>
-・<a href="https://assetstore.unity.com/packages/2d/gui/icons/food-icons-pack-70018#content">FOOD ICONS PACK</a>
+<ul>
+  <li>
+    <a href="https://assetstore.unity.com/packages/3d/props/food/low-poly-fruit-pickups-98135#content">Low Poly Fruit Pickups</a><br>
+  </li>
+  <li>
+    <a href="https://assetstore.unity.com/packages/2d/gui/icons/food-icons-pack-70018#content">FOOD ICONS PACK</a>
+  </li>
+</ul>
