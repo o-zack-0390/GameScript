@@ -35,7 +35,7 @@ Unity<br><br>
 ![11](https://user-images.githubusercontent.com/116938721/220808022-047e2301-edc5-4925-b22d-eb73f2ca484a.jpg)
 <br><br>
 
-アイテムポーチ<br><br>
+アイテムポーチ(最後に4個→12個にする予定)<br><br>
 ![3](https://user-images.githubusercontent.com/116938721/220807732-72442e8a-abcd-4e86-9031-97dc863bdf1a.jpg)
 <br><br>
 
