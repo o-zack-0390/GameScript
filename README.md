@@ -57,9 +57,7 @@ Unity<br><br>
   <li><a href="https://gametukurikata.com/program/stop">UnityでScriptableObjectを使ってアイテムデータベースを作成する</a></li>
   <br>
   <li><a href="https://xr-hub.com/archives/16386">【Unity 入門】《第2回》敵を自動生成する（乱数・インスタンス）｜シューティングゲームを作ろう！</a></li>
-  <br>
 </ul>
-<br>
 
 <h3>使用アセット</h3>
 <ul>
