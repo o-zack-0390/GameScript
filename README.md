@@ -2,6 +2,9 @@
 ゲーム制作で使用したプログラムを保管<br><br><br>
 
 
+ステージ<br><br>
+<img width="1280" alt="image" src="https://user-images.githubusercontent.com/116938721/220808961-35f000ba-c98e-48e2-8fd2-046f045c84ef.png">
+<br><br>
 
 フィールド<br><br>
 ![11](https://user-images.githubusercontent.com/116938721/220808022-047e2301-edc5-4925-b22d-eb73f2ca484a.jpg)
