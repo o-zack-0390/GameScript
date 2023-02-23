@@ -16,7 +16,7 @@ public class SearchItem : MonoBehaviour {
 //		離れたオブジェクトのタグが"Item"のとき
 		if(col.tag == "Item")
 		{
-			MainCamera.GetComponent<IsDestroy>().SetItem(col);
+			MainCamera.GetComponent<IsDestroy>().SetItem(col.gameObject.transform.parent.gameObject);
 			MainCamera.GetComponent<IsDestroy>().ChangeFlag(1);
 		}
 	}
