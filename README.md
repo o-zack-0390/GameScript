@@ -16,8 +16,9 @@ Unity<br><br>
 <ul>
   <br>
   <li>方向Keyでキャラクターを操作</li><br>
-  <li>「A」Keyでアイテムを拾う</li><br>
-  <li>「Q」Keyでアイテムポーチを開く</li><br>
+  <li>「c」Keyでしゃがむ</li><br>
+  <li>「e」Keyでアイテムを拾う</li><br>
+  <li>「q」Keyでアイテムポーチを開く</li><br>
   <li>アイテムポーチでアイテムをクリックするとアイテム使用</li><br>
 </ul>
 
