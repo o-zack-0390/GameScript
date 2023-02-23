@@ -15,8 +15,9 @@
 <br><br>
 
 キャラクター動作確認<br>
-https://user-images.githubusercontent.com/116938721/220809430-8ccb9f18-b225-499b-9719-a125db9228b0.mp4
-<br><br>
+<a href="https://user-images.githubusercontent.com/116938721/220811352-4becb518-a2e0-4fd1-ac1d-a8311e2cc1c9.mp4">動作確認1</a><br>
+<a href="https://user-images.githubusercontent.com/116938721/220811894-e66bd712-b209-44a7-895c-9a5440a235ea.mp4">動作確認2</a><br>
+<a href="https://user-images.githubusercontent.com/116938721/220812515-87dd6166-3064-431d-98f0-a775509531fb.mp4">動作確認3</a><br><br>
 
 参考文献
 <ul>
