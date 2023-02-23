@@ -14,6 +14,9 @@
 ![3](https://user-images.githubusercontent.com/116938721/220807732-72442e8a-abcd-4e86-9031-97dc863bdf1a.jpg)
 <br><br>
 
+キャラクター動作確認<br><br>
+https://user-images.githubusercontent.com/116938721/220809430-8ccb9f18-b225-499b-9719-a125db9228b0.mp4
+<br><br>
 
 参考文献
 <ul>
