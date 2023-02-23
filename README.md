@@ -14,6 +14,7 @@ Unity<br><br>
 <h3>状況</h3>
 現時点で実装済
 <ul>
+  <br>
   <li>方向Keyでキャラクターを操作</li><br>
   <li>「A」Keyでアイテムを拾う</li><br>
   <li>「Q」Keyでアイテムポーチを開く</li><br>
