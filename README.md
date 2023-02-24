@@ -48,7 +48,12 @@ Unity<br><br>
 段差のならし方が粗い箇所でのジャンプが若干ぎこちない<br><br>
 
 「アイテムを拾う」動作確認<br>
-https://user-images.githubusercontent.com/116938721/221113346-e926666c-ce4b-44af-b7f1-e3b2822e5a4d.mp4
+<a href="https://user-images.githubusercontent.com/116938721/221113346-e926666c-ce4b-44af-b7f1-e3b2822e5a4d.mp4">動作確認</a><br>
+↓<br>
+アイテムポーチは空でアイテムも無いので <font color="red">空白 : 0</font> になっている。<br>
+ココナッツを拾ったところでアイテムポーチにココナッツが追加され、<font color="red">Coconut : 1</font> になる。<br>
+アイテムポーチを開いている状態でココナッツの画像を押すとアイテムを使用。<br>
+アイテム使用時の効果は HP を実装後に追加。現時点ではアイテム効果に0を代入している。<br><br>
 
 
 <h3>参考文献</h3>
