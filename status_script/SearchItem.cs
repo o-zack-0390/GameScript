@@ -23,10 +23,10 @@ public class SearchItem : MonoBehaviour {
 	
 //	アイテムを拾えない位置まで離れたときに起動
 	void OnTriggerExit(Collider col)
-    {
-//	離れたオブジェクトのタグが"Item"のとき
-        if(col.tag == "Item")
-            UnityChan.GetComponent<IsDestroy>().ChangeFlag(0);
-    }
+	{
+//		離れたオブジェクトのタグが"Item"のとき
+        	if(col.tag == "Item")
+            		UnityChan.GetComponent<IsDestroy>().ChangeFlag(0);
+    	}
  
 }
