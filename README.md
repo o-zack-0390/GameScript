@@ -47,6 +47,10 @@ Unity<br><br>
 ↓<br>
 段差のならし方が粗い箇所でのジャンプが若干ぎこちない<br><br>
 
+「アイテムを拾う」動作確認<br>
+https://user-images.githubusercontent.com/116938721/221113346-e926666c-ce4b-44af-b7f1-e3b2822e5a4d.mp4
+
+
 <h3>参考文献</h3>
 <ul>
   <li><a href="https://gametukurikata.com/program/scriptableobjectitemdatabase">UnityでScriptableObjectを使ってアイテムデータベースを作成する</a></li>
