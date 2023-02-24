@@ -6,7 +6,7 @@ using UnityEngine.UI;
 /* 周囲にアイテムがあるか判定するクラス */
 public class SearchItem : MonoBehaviour {
 	
-//　 UnityChan!のスクリプト「IsDestroy.cs」を参照
+//	UnityChan!のスクリプト「IsDestroy.cs」を参照
 	public GameObject UnityChan;
 	
 	
