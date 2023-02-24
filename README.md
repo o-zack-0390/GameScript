@@ -40,14 +40,14 @@ Unity<br><br>
 ![3](https://user-images.githubusercontent.com/116938721/220807732-72442e8a-abcd-4e86-9031-97dc863bdf1a.jpg)
 <br><br>
 
-キャラクター動作確認<br>
+動作確認 (キャラクターを動かす)<br>
 <a href="https://user-images.githubusercontent.com/116938721/220811352-4becb518-a2e0-4fd1-ac1d-a8311e2cc1c9.mp4">動作確認1</a><br>
 <a href="https://user-images.githubusercontent.com/116938721/220811894-e66bd712-b209-44a7-895c-9a5440a235ea.mp4">動作確認2</a><br>
 <a href="https://user-images.githubusercontent.com/116938721/220812515-87dd6166-3064-431d-98f0-a775509531fb.mp4">動作確認3</a><br>
 ↓<br>
 段差のならし方が粗い箇所でのジャンプが若干ぎこちない<br><br>
 
-「アイテムを拾う」動作確認<br>
+動作確認 (アイテムを拾う)<br>
 <a href="https://user-images.githubusercontent.com/116938721/221113346-e926666c-ce4b-44af-b7f1-e3b2822e5a4d.mp4">動作確認</a><br>
 ↓<br>
 アイテムポーチは空でアイテムも無いので <font color="red">空白 : 0</font> になっている。<br>
