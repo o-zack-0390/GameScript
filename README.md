@@ -29,7 +29,7 @@ C#とUnityを触ったことが無かったため本当にできるのか最初�
 <br><br>
 
 <h3>フィールド</h3>
-![image](https://user-images.githubusercontent.com/116938721/229552672-7232f996-f529-4b6d-8346-c79ef91e86dd.png)
+<img width="366" alt="image" src="https://user-images.githubusercontent.com/116938721/229553066-ea755fe3-e493-400c-ae41-f67001607688.png">
  <br><br>
 
 <h3>アイテムポーチ(最後に4個→12個にする予定)</h3>
