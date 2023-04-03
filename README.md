@@ -33,7 +33,7 @@ C#とUnityを触ったことが無かったため本当にできるのか最初�
  <br><br>
 
 <h3>アイテムポーチ(最後に4個→12個にする予定)</h3>
- ![3](https://user-images.githubusercontent.com/116938721/220807732-72442e8a-abcd-4e86-9031-97dc863bdf1a.jpg)
+<img width="551" alt="image" src="https://user-images.githubusercontent.com/116938721/229553706-fa0f7e16-48b7-4bb1-b989-28fd093a7bca.png">
  <br><br>
 
 <h3>動作確認 (キャラクターを動かす)</h3>
