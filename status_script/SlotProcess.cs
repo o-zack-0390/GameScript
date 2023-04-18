@@ -18,8 +18,10 @@ public class SlotProcess : MonoBehaviour {
 	
 //  アイテムデータ
 	private string item_name;
-	private int    item_num;
 	private string item_inf;
+	private int    item_num;
+	private int    item_stamina;
+	private int    item_water;
 
 
 // 　アイテムデータをセット
@@ -44,11 +46,11 @@ public class SlotProcess : MonoBehaviour {
 		icon         = null;
 		image        = this.GetComponent<Image>();
 		item_inf     = null;
-		item_stamina = null;
-		item_water   = null;
         image.sprite = null;
 		TMP.text     = "  ";
 		item_num     = 0;
+		item_stamina = 0;
+		item_water   = 0;
 	}
 	
 	
